@@ -12,6 +12,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Navbar />
+        
         <Switch>
         <Redirect from='/CreatePost' to='/Register' />
           <Route exact path='/' component={Home}>
@@ -34,12 +35,7 @@ function App() {
             <AllPost />
           </Route>
 
-          <Route component=
-            {NotFound}>
-
-          </Route>
-
-          
+          <Route component= {NotFound} />
 
         </Switch>
       </div>

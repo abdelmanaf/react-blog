@@ -14,6 +14,7 @@
 .navbar h2{
     margin-left: 130px;
     margin-top: 35px;
+    text-decoration: none;
 }
 .navbar .navbar__list {
     display: flex;

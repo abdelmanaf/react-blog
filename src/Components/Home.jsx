@@ -11,9 +11,9 @@ function Home() {
                     />
             </div>
 
-                <div className='home__para'>
-                    <h1>Welcome to my space</h1>
-                </div>
+            <div className='home__para'>
+                <h1>Welcome to my space</h1>
+            </div>
         </div>
     )
 }
